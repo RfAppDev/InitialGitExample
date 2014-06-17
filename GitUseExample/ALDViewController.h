@@ -10,4 +10,7 @@
 
 @interface ALDViewController : UIViewController
 
+- (IBAction)clickTheButton:(id)sender;
+
+
 @end

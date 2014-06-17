@@ -14,8 +14,11 @@
 
 @implementation ALDViewController
 
+
 - (void)viewDidLoad
 {
+    
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -25,5 +28,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)clickTheButton:(id)sender {
+    
+    NSLog(@"This is a git tutorial");
+}
+
+
 
 @end
